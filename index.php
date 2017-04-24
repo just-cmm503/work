@@ -21,6 +21,7 @@ include __DIR__."app/core\\Redirector.php";
 include __DIR__."app/utility\\Utility.php";
 include __DIR__."app/core/Components\\AuthComponent.php";
 include __DIR__."app/core\\Component.php";
+include __DIR__."app/core\\Cookie.php";
 
 
 /*
