@@ -8,26 +8,26 @@
 | After running "composer install", we can use the autoloader file created.
 |
 */
-
-include __DIR__."app/core\\Handler.php";
-include  __DIR__."app/core\Session.php";
-include  __DIR__."app/core\\App.php";
-include __DIR__."app/core\\Request.php";
-include __DIR__."app/core\\Environment.php";
-include __DIR__."app/core\\Response.php";
-include __DIR__."app/core\\LoginController.php";
-include __DIR__."app/core\\View.php";
-include __DIR__."app/core\\Redirector.php";
-include __DIR__."app/utility\\Utility.php";
-include __DIR__."app/core/Components\\AuthComponent.php";
-include __DIR__."app/core\\Component.php";
-include __DIR__."app/core/Components\\SecurityComponent.php";
-include __DIR__."app/core\\Config.php";
-include __DIR__."app/core\\Logger.php";
-include __DIR__."app/core\\Cookie.php";
-include __DIR__."vendor/gregwar/captcha\\CaptchaBuilder.php";
-include __DIR__."vendor\gregwar/captcha\\CaptchaBuilderInterface.php";
-include __DIR__."vendor/gregwar/captcha\\PhraseBuilderInterface.php";
+$ds=DIRECTORY_SEPARATOR;
+include __DIR__."app".$ds."core".$ds."Handler.php";
+include  __DIR__."app".$ds."core".$ds."Session.php";
+include  __DIR__."app".$ds."core".$ds."App.php";
+include __DIR__."app".$ds."core".$ds."Request.php";
+include __DIR__."app".$ds."core".$ds."Environment.php";
+include __DIR__."app".$ds."core".$ds."Response.php";
+include __DIR__."app".$ds."core".$ds."LoginController.php";
+include __DIR__."app".$ds."core".$ds."View.php";
+include __DIR__."app".$ds."core".$ds."Redirector.php";
+include __DIR__."app".$ds."utility".$ds."Utility.php";
+include __DIR__."app".$ds."core".$ds."Components".$ds."AuthComponent.php";
+include __DIR__."app".$ds."core".$ds."Component.php";
+include __DIR__."app".$ds."core".$ds."Components".$ds."SecurityComponent.php";
+include __DIR__."app".$ds."core".$ds."Config.php";
+include __DIR__."app".$ds."core".$ds."Logger.php";
+include __DIR__."app".$ds."core".$ds."Cookie.php";
+include __DIR__."vendor".$ds."gregwar".$ds."captcha".$ds."CaptchaBuilder.php";
+include __DIR__."vendor".$ds."gregwar".$ds."captcha".$ds."CaptchaBuilderInterface.php";
+include __DIR__."vendor".$ds."gregwar".$ds."captcha".$ds."PhraseBuilderInterface.php";
 
 
 
