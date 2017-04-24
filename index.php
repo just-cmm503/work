@@ -23,7 +23,6 @@ include __DIR__."app/core/Components\\AuthComponent.php";
 include __DIR__."app/core\\Component.php";
 
 
-
 /*
 |--------------------------------------------------------------------------
 | Define Application Configuration Constants
