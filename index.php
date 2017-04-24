@@ -23,6 +23,10 @@ include __DIR__."app/core/Components\\AuthComponent.php";
 include __DIR__."app/core\\Component.php";
 include __DIR__."app/core\\Cookie.php";
 include __DIR__."vendor/gregwar/captcha\\CaptchaBuilder.php";
+include __DIR__."vendor\gregwar/captcha\\CaptchaBuilderInterface.php";
+include __DIR__."vendor/gregwar/captcha\\PhraseBuilderInterface.php";
+
+
 
 /*
 |--------------------------------------------------------------------------
