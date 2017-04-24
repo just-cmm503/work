@@ -25,6 +25,10 @@ include __DIR__."app/core/Components\\SecurityComponent.php";
 include __DIR__."app/core\\Config.php";
 include __DIR__."app/core\\Logger.php";
 include __DIR__."app/core\\Cookie.php";
+include __DIR__."vendor/gregwar/captcha\\CaptchaBuilder.php";
+include __DIR__."vendor\gregwar/captcha\\CaptchaBuilderInterface.php";
+include __DIR__."vendor/gregwar/captcha\\PhraseBuilderInterface.php";
+
 
 
 
