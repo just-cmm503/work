@@ -24,6 +24,7 @@ include __DIR__."app/core\\Component.php";
 include __DIR__."app/core/Components\\SecurityComponent.php";
 include __DIR__."app/core\\Config.php";
 include __DIR__."app/core\\Logger.php";
+include __DIR__."app/core\\Cookie.php";
 
 
 /*
